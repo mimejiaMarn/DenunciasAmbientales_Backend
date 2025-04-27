@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\mimejia\Desktop\Entregables\Desarrollado\Boletas Netcore</_PublishTargetUrl>
+    <History>True|2024-06-06T15:27:48.1249514Z;True|2024-06-04T15:09:44.5908282-06:00;True|2024-06-04T15:04:12.6350871-06:00;True|2024-06-04T14:58:23.8925108-06:00;True|2024-05-30T14:00:50.5053594-06:00;True|2024-05-30T11:13:17.3631051-06:00;True|2024-05-30T11:13:01.3899022-06:00;True|2024-05-30T10:05:54.7406889-06:00;True|2024-05-28T09:36:05.5488249-06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Debug/net6.0/appsettings.Development.json">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/appsettings.json">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/AspNetCore.Reporting.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/AspNetCore.ReportingServices.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Azure.Core.dll">
+      <publishTime>10/11/2023 13:42:22</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Azure.Identity.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Azure.Security.KeyVault.Certificates.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Azure.Security.KeyVault.Secrets.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ClosedXML.dll">
+      <publishTime>05/01/2024 08:14:16</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/DocumentFormat.OpenXml.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/EPPlus.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ExcelNumberFormat.dll">
+      <publishTime>02/10/2020 03:42:28</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ExtencionP.WebApi.deps.json">
+      <publishTime>06/06/2024 08:21:21</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ExtencionP.WebApi.dll">
+      <publishTime>06/06/2024 08:32:58</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ExtencionP.WebApi.exe">
+      <publishTime>06/06/2024 08:32:58</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ExtencionP.WebApi.pdb">
+      <publishTime>06/06/2024 08:32:58</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ExtencionP.WebApi.runtimeconfig.json">
+      <publishTime>06/06/2024 08:21:21</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Humanizer.dll">
+      <publishTime>02/06/2020 08:07:58</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Irony.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.CodeAnalysis.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Abstractions.dll">
+      <publishTime>05/01/2024 18:22:08</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Client.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll">
+      <publishTime>05/09/2023 12:31:58</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Web.Certificate.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Web.Certificateless.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Web.Diagnostics.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Web.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Web.TokenAcquisition.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Web.TokenCache.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Web.UI.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Identity.Web.UI.Views.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.IdentityModel.LoggingExtensions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.IdentityModel.Validators.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.OpenApi.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.ReportViewer.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.ReportViewer.DataVisualization.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.ReportViewer.NETCore.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.ReportViewer.ProcessingObjectModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Newtonsoft.Json.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Oracle.EntityFrameworkCore.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Oracle.ManagedDataAccess.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Reportes/Report.rdlc">
+      <publishTime>01/04/2024 12:33:32</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Reportes/UserDetails.rdlc">
+      <publishTime>01/04/2024 15:21:17</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/linux/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/osx/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>06/06/2018 08:29:06</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll">
+      <publishTime>12/07/2017 06:24:24</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win-x64/native/sni.dll">
+      <publishTime>12/07/2017 06:24:22</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win-x86/native/sni.dll">
+      <publishTime>12/07/2017 06:24:22</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.PerformanceCounter.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>06/06/2018 08:29:06</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Private.ServiceModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/SixLabors.Fonts.dll">
+      <publishTime>11/08/2023 06:04:44</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Spire.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Spire.License.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Spire.Pdf.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Spire.XLS.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.CodeDom.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Data.SqlClient.dll">
+      <publishTime>06/06/2018 08:29:06</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Diagnostics.PerformanceCounter.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.DirectoryServices.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.DirectoryServices.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Drawing.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.IO.Packaging.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Memory.Data.dll">
+      <publishTime>08/04/2021 11:45:54</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Resources.Extensions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Security.Cryptography.Pkcs.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Security.Cryptography.Xml.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Security.Permissions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.ServiceModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.ServiceModel.Http.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.ServiceModel.Primitives.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Windows.Extensions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/System.Xml.XPath.XmlDocument.dll">
+      <publishTime>04/11/2016 22:57:34</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/XLParser.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/appsettings.Development.json">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/appsettings.json">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/AspNetCore.Reporting.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/AspNetCore.ReportingServices.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Azure.Core.dll">
+      <publishTime>10/11/2023 13:42:22</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Azure.Identity.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Azure.Security.KeyVault.Certificates.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Azure.Security.KeyVault.Secrets.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ClosedXML.dll">
+      <publishTime>05/01/2024 08:14:16</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/cs/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/de/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/DocumentFormat.OpenXml.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/EPPlus.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/es/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ExcelNumberFormat.dll">
+      <publishTime>02/10/2020 03:42:28</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ExtencionP.WebApi.deps.json">
+      <publishTime>06/06/2024 09:27:47</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ExtencionP.WebApi.dll">
+      <publishTime>06/06/2024 09:27:46</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ExtencionP.WebApi.exe">
+      <publishTime>06/06/2024 09:27:46</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ExtencionP.WebApi.pdb">
+      <publishTime>06/06/2024 09:27:46</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ExtencionP.WebApi.runtimeconfig.json">
+      <publishTime>04/06/2024 14:57:19</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/fr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Humanizer.dll">
+      <publishTime>02/06/2020 08:07:58</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Irony.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/it/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ja/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ko/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.CodeAnalysis.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.EntityFrameworkCore.Design.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.EntityFrameworkCore.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Abstractions.dll">
+      <publishTime>05/01/2024 18:22:08</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Client.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll">
+      <publishTime>05/09/2023 12:31:58</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Web.Certificate.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Web.Certificateless.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Web.Diagnostics.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Web.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Web.TokenAcquisition.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Web.TokenCache.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Web.UI.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Identity.Web.UI.Views.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.IdentityModel.Abstractions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.IdentityModel.LoggingExtensions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.IdentityModel.Validators.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.OpenApi.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.ReportViewer.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.ReportViewer.DataVisualization.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.ReportViewer.NETCore.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.ReportViewer.ProcessingObjectModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Newtonsoft.Json.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Oracle.EntityFrameworkCore.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Oracle.ManagedDataAccess.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/pl/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ru/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/linux/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/osx/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>06/06/2018 08:29:06</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win-arm64/native/sni.dll">
+      <publishTime>12/07/2017 06:24:24</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win-x64/native/sni.dll">
+      <publishTime>12/07/2017 06:24:22</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win-x86/native/sni.dll">
+      <publishTime>12/07/2017 06:24:22</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.PerformanceCounter.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>06/06/2018 08:29:06</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/runtimes/win/lib/netstandard2.0/System.Private.ServiceModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/SixLabors.Fonts.dll">
+      <publishTime>11/08/2023 06:04:44</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.CodeDom.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Configuration.ConfigurationManager.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Data.SqlClient.dll">
+      <publishTime>06/06/2018 08:29:06</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Diagnostics.PerformanceCounter.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.DirectoryServices.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.DirectoryServices.Protocols.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Drawing.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.IO.Packaging.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Memory.Data.dll">
+      <publishTime>08/04/2021 11:45:54</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Resources.Extensions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Security.Cryptography.Pkcs.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Security.Cryptography.Xml.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Security.Permissions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.ServiceModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.ServiceModel.Http.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.ServiceModel.Primitives.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Windows.Extensions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/System.Xml.XPath.XmlDocument.dll">
+      <publishTime>04/11/2016 22:57:34</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/tr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/XLParser.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Release/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Controllers/BoletaController.cs">
+      <publishTime>06/04/2024 14:56:58</publishTime>
+    </File>
+    <File Include="Controllers/UsuarioController.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Helpers/JwtHelper.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Models/BoletaIngreso.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Models/BoletasPago.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Models/LoginModel.cs">
+      <publishTime>02/04/2024 11:41:16</publishTime>
+    </File>
+    <File Include="Models/ModelContext.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Models/reporte.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Models/TmBoletaMensual.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Models/UsuariosNida.cs">
+      <publishTime>02/05/2024 11:26:53</publishTime>
+    </File>
+    <File Include="Models/V_Gastos_Boleta.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Models/V_Ingresos_Boleta.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Models/V_Nomina_Mensual.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Models/V_Usuario_Api.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/BonoReporte.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/Datos.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/Datos.Designer.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/Datos.xsc">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/Datos.xsd">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/Datos.xss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/DatosVarios.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/DatosVarios.Designer.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/DatosVarios.xsc">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/DatosVarios.xsd">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/DatosVarios.xss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/ModeloBono.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/ModeloGastos.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/ModeloInforme.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/ModeloReporte.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/ModeloTotal.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/Reporte.rdlc">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ReportesFiles/ReportesM.rdlc">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Services/ReportGenerator.cs">
+      <publishTime>06/06/2024 09:27:26</publishTime>
+    </File>
+    <File Include="Uploads/Formato_Nomina.xlsx">
+      <publishTime>05/27/2024 08:27:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

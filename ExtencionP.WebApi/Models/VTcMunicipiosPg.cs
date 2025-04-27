@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace ExtencionP.WebApi.Models
+{
+    public partial class VTcMunicipiosPg
+    {
+        public int CodigoDepartamento { get; set; }
+        public int CodigoMunicipio { get; set; }
+        public string NombreMunicipio { get; set; } = null!;
+        public string UsuarioIngreso { get; set; } = null!;
+        public DateTime FechaIngreso { get; set; }
+        public string? UsuarioActualizacion { get; set; }
+        public DateTime? FechaActualizacion { get; set; }
+    }
+}

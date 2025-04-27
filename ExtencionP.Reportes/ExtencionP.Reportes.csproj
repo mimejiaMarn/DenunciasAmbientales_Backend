@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="ReportesFiles\Datos.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Datos.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="ReportesFiles\DatosVarios.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DatosVarios.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ReportesFiles\Datos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Datos.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="ReportesFiles\DatosVarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatosVarios.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

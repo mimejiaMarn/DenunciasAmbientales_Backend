@@ -1,0 +1,110 @@
+[
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.DenunciasController",
+    "Method": "CrearDenuncia",
+    "RelativePath": "api/Denuncias/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ExtencionP.WebApi.Models.Formularios.CrearDenunciaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExtencionP.WebApi.Models.Formularios.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.UtilidadesController",
+    "Method": "GetDepartamentos",
+    "RelativePath": "api/Utilidades/departamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.UtilidadesController",
+    "Method": "GetEtnias",
+    "RelativePath": "api/Utilidades/etnias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.UtilidadesController",
+    "Method": "GetIdiomas",
+    "RelativePath": "api/Utilidades/idiomas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.UtilidadesController",
+    "Method": "GetMunicipiosByDepartamento",
+    "RelativePath": "api/Utilidades/municipios/{idDepartamento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idDepartamento",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.UtilidadesController",
+    "Method": "GetSexos",
+    "RelativePath": "api/Utilidades/sexos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.UtilidadesController",
+    "Method": "GetTipoDenuncias",
+    "RelativePath": "api/Utilidades/tipo-denuncias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

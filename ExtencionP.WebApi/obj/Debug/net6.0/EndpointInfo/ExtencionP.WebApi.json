@@ -1,0 +1,368 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ExtencionP.WebApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Denuncias/crear": {
+      "post": {
+        "tags": [
+          "Denuncias"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearDenunciaDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearDenunciaDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearDenunciaDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuario/login": {
+      "post": {
+        "tags": [
+          "Usuario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Utilidades/departamentos": {
+      "get": {
+        "tags": [
+          "Utilidades"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Utilidades/municipios/{idDepartamento}": {
+      "get": {
+        "tags": [
+          "Utilidades"
+        ],
+        "parameters": [
+          {
+            "name": "idDepartamento",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Utilidades/sexos": {
+      "get": {
+        "tags": [
+          "Utilidades"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Utilidades/idiomas": {
+      "get": {
+        "tags": [
+          "Utilidades"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Utilidades/etnias": {
+      "get": {
+        "tags": [
+          "Utilidades"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Utilidades/tipo-denuncias": {
+      "get": {
+        "tags": [
+          "Utilidades"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CrearDenunciaDto": {
+        "type": "object",
+        "properties": {
+          "primerNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "segundoNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "primerApellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "segundoApellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "sexo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "edad": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "etnia": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "comunidadLinguistica": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dpiDenunciante": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefonoDenunciante": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccionDenunciante": {
+            "type": "string",
+            "nullable": true
+          },
+          "idMunicipioDenunciante": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idDepartamentoDenunciante": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "correoDenunciante": {
+            "type": "string",
+            "nullable": true
+          },
+          "esPersonaIndividual": {
+            "type": "boolean"
+          },
+          "empresa": {
+            "type": "string",
+            "nullable": true
+          },
+          "primerNombreDdo": {
+            "type": "string",
+            "nullable": true
+          },
+          "segundoNombreDdo": {
+            "type": "string",
+            "nullable": true
+          },
+          "primerApellidoDdo": {
+            "type": "string",
+            "nullable": true
+          },
+          "segundoApellidoDdo": {
+            "type": "string",
+            "nullable": true
+          },
+          "dpiDdo": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefonoDdo": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccionDdo": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenciaDireccionDdo": {
+            "type": "string",
+            "nullable": true
+          },
+          "idMunicipioDdo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idDepartamentoDdo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "correoDdo": {
+            "type": "string",
+            "nullable": true
+          },
+          "sexoDdo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "comunidadDdo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "etniaDdo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "asunto": {
+            "type": "string",
+            "nullable": true
+          },
+          "idTipoDenuncia": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCalificacion": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "otros": {
+            "type": "string",
+            "nullable": true
+          },
+          "terminos": {
+            "type": "boolean"
+          },
+          "periodoDenuncia": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "noExpediente": {
+            "type": "string",
+            "nullable": true
+          },
+          "idExpediente": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "periodoExpediente": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "esAnonima": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginModel": {
+        "type": "object",
+        "properties": {
+          "correoElectronico": {
+            "type": "string",
+            "nullable": true
+          },
+          "passCorreo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
