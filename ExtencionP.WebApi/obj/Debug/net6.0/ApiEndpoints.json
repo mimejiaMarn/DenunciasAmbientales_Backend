@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "ExtencionP.WebApi.Controllers.DenunciasController",
+    "Method": "CalificarDenuncia",
+    "RelativePath": "api/Denuncias/calificar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ExtencionP.WebApi.Models.Formularios.CalificarDenunciaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.DenunciasController",
     "Method": "CrearDenuncia",
     "RelativePath": "api/Denuncias/crear",
     "HttpMethod": "POST",
@@ -10,6 +26,22 @@
       {
         "Name": "dto",
         "Type": "ExtencionP.WebApi.Models.Formularios.CrearDenunciaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExtencionP.WebApi.Controllers.DenunciasController",
+    "Method": "ObtenerEstadoDenuncia",
+    "RelativePath": "api/Denuncias/estado/{noDenuncia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noDenuncia",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

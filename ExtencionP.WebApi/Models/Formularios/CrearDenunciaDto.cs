@@ -40,7 +40,7 @@
         // Denuncia
         public string? Asunto { get; set; } // ✅ obligatorio
         public int? IdTipoDenuncia { get; set; } // ✅ obligatorio
-        public int? IdCalificacion { get; set; }
+        //public int? IdCalificacion { get; set; }
         public string? Otros { get; set; } // Solo obligatorio si IdTipoDenuncia == 6
         public bool Terminos { get; set; } // ✅ obligatorio
 

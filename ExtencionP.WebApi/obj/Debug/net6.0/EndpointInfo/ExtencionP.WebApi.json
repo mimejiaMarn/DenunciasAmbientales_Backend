@@ -36,6 +36,59 @@
         }
       }
     },
+    "/api/Denuncias/calificar": {
+      "post": {
+        "tags": [
+          "Denuncias"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CalificarDenunciaDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CalificarDenunciaDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CalificarDenunciaDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Denuncias/estado/{noDenuncia}": {
+      "get": {
+        "tags": [
+          "Denuncias"
+        ],
+        "parameters": [
+          {
+            "name": "noDenuncia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Usuario/login": {
       "post": {
         "tags": [
@@ -170,6 +223,20 @@
   },
   "components": {
     "schemas": {
+      "CalificarDenunciaDto": {
+        "type": "object",
+        "properties": {
+          "idDenuncia": {
+            "type": "number",
+            "format": "double"
+          },
+          "idCalificacion": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "CrearDenunciaDto": {
         "type": "object",
         "properties": {
@@ -308,11 +375,6 @@
             "nullable": true
           },
           "idTipoDenuncia": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "idCalificacion": {
             "type": "integer",
             "format": "int32",
             "nullable": true

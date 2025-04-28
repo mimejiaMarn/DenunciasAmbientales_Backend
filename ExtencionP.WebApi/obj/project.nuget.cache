@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vSsp1ZSPsDI=",
+  "dgSpecHash": "TE18tYvgVOQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\Base VUE\\ExtencionP\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mimejia\\.nuget\\packages\\aspnetcore.reporting\\2.1.0\\aspnetcore.reporting.2.1.0.nupkg.sha512",
     "C:\\Users\\mimejia\\.nuget\\packages\\aspnetcore.reportingservices\\2.1.0\\aspnetcore.reportingservices.2.1.0.nupkg.sha512",

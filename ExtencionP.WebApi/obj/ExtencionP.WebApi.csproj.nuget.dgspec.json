@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\Base VUE\\ExtencionP\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj": {}
+    "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\Base VUE\\ExtencionP\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj": {
+    "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\Base VUE\\ExtencionP\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj",
         "projectName": "ExtencionP.WebApi",
-        "projectPath": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\Base VUE\\ExtencionP\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj",
+        "projectPath": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\ExtencionP.WebApi.csproj",
         "packagesPath": "C:\\Users\\mimejia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\Base VUE\\ExtencionP\\ExtencionP.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

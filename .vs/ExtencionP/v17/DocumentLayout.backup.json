@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B6A86F-126D-4FBD-8BB7-AA7CAEE08BDC}|ExtencionP.WebApi\\ExtencionP.WebApi.csproj|c:\\users\\mimejia\\desktop\\nuevos proyecto\\sicoda final\\denunciasambientales_backend\\extencionp.webapi\\controllers\\denunciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B6A86F-126D-4FBD-8BB7-AA7CAEE08BDC}|ExtencionP.WebApi\\ExtencionP.WebApi.csproj|solutionrelative:extencionp.webapi\\controllers\\denunciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B6A86F-126D-4FBD-8BB7-AA7CAEE08BDC}|ExtencionP.WebApi\\ExtencionP.WebApi.csproj|c:\\users\\mimejia\\desktop\\nuevos proyecto\\sicoda final\\denunciasambientales_backend\\extencionp.webapi\\controllers\\utilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B6A86F-126D-4FBD-8BB7-AA7CAEE08BDC}|ExtencionP.WebApi\\ExtencionP.WebApi.csproj|solutionrelative:extencionp.webapi\\controllers\\utilidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B6A86F-126D-4FBD-8BB7-AA7CAEE08BDC}|ExtencionP.WebApi\\ExtencionP.WebApi.csproj|c:\\users\\mimejia\\desktop\\nuevos proyecto\\sicoda final\\denunciasambientales_backend\\extencionp.webapi\\models\\formularios\\creardenunciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B6A86F-126D-4FBD-8BB7-AA7CAEE08BDC}|ExtencionP.WebApi\\ExtencionP.WebApi.csproj|solutionrelative:extencionp.webapi\\models\\formularios\\creardenunciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B6A86F-126D-4FBD-8BB7-AA7CAEE08BDC}|ExtencionP.WebApi\\ExtencionP.WebApi.csproj|c:\\users\\mimejia\\desktop\\nuevos proyecto\\sicoda final\\denunciasambientales_backend\\extencionp.webapi\\models\\formularios\\calificardenunciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B6A86F-126D-4FBD-8BB7-AA7CAEE08BDC}|ExtencionP.WebApi\\ExtencionP.WebApi.csproj|solutionrelative:extencionp.webapi\\models\\formularios\\calificardenunciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalificarDenunciaDto.cs",
+              "DocumentMoniker": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\Models\\Formularios\\CalificarDenunciaDto.cs",
+              "RelativeDocumentMoniker": "ExtencionP.WebApi\\Models\\Formularios\\CalificarDenunciaDto.cs",
+              "ToolTip": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\Models\\Formularios\\CalificarDenunciaDto.cs",
+              "RelativeToolTip": "ExtencionP.WebApi\\Models\\Formularios\\CalificarDenunciaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:19:24.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrearDenunciaDto.cs",
+              "DocumentMoniker": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\Models\\Formularios\\CrearDenunciaDto.cs",
+              "RelativeDocumentMoniker": "ExtencionP.WebApi\\Models\\Formularios\\CrearDenunciaDto.cs",
+              "ToolTip": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\Models\\Formularios\\CrearDenunciaDto.cs",
+              "RelativeToolTip": "ExtencionP.WebApi\\Models\\Formularios\\CrearDenunciaDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:14:16.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DenunciasController.cs",
+              "DocumentMoniker": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\Controllers\\DenunciasController.cs",
+              "RelativeDocumentMoniker": "ExtencionP.WebApi\\Controllers\\DenunciasController.cs",
+              "ToolTip": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\Controllers\\DenunciasController.cs",
+              "RelativeToolTip": "ExtencionP.WebApi\\Controllers\\DenunciasController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAcwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:09:56.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UtilidadesController.cs",
+              "DocumentMoniker": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\Controllers\\UtilidadesController.cs",
+              "RelativeDocumentMoniker": "ExtencionP.WebApi\\Controllers\\UtilidadesController.cs",
+              "ToolTip": "C:\\Users\\mimejia\\Desktop\\Nuevos Proyecto\\SICODA FINAL\\DenunciasAmbientales_Backend\\ExtencionP.WebApi\\Controllers\\UtilidadesController.cs",
+              "RelativeToolTip": "ExtencionP.WebApi\\Controllers\\UtilidadesController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:51:09.973Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

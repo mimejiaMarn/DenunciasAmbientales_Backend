@@ -112,13 +112,19 @@ namespace ExtencionP.WebApi.Controllers
                     UsuarioIngreso = string.IsNullOrWhiteSpace(dto.CorreoDenunciante) ? "PUBLICO" : dto.CorreoDenunciante,
                     NoDenuncia = noDenuncia,
                     IdEstatusDenu = 1, // Estado Inicial de Ingreso
-                    IdCalificacion = dto.IdCalificacion
+                    //IdCalificacion = dto.IdCalificacion
                 };
 
                 _context.TmDenuncias.Add(denuncia);
                 await _context.SaveChangesAsync();
 
-                return Ok(new { mensaje = "Denuncia guardada con éxito", noDenuncia });
+                return Ok(new
+                {
+                    mensaje = "Denuncia guardada con éxito",
+                    noDenuncia,
+                    idDenuncia = denuncia.IdSicoda  // Asegúrate que devuelves el ID real para poder usarlo
+                });
+
             }
             catch (Exception ex)
             {
@@ -129,6 +135,42 @@ namespace ExtencionP.WebApi.Controllers
                 });
             }
         }
+
+        [HttpPost("calificar")]
+        public async Task<IActionResult> CalificarDenuncia([FromBody] CalificarDenunciaDto dto)
+        {
+            var denuncia = await _context.TmDenuncias.FirstOrDefaultAsync(d => d.IdSicoda == dto.IdDenuncia);
+
+            if (denuncia == null)
+                return NotFound();
+
+            denuncia.IdCalificacion = dto.IdCalificacion;
+            denuncia.FechaActualiza = DateTime.Now;
+            denuncia.UsuarioActualiza = "PUBLICO";
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { mensaje = "Calificación registrada exitosamente" });
+        }
+
+        // DenunciasController.cs
+        [HttpGet("estado/{noDenuncia}")]
+        public async Task<IActionResult> ObtenerEstadoDenuncia(string noDenuncia)
+        {
+            if (string.IsNullOrWhiteSpace(noDenuncia))
+                return BadRequest(new { mensaje = "Número de denuncia inválido." });
+
+            var denuncia = await _context.TmDenuncias
+                .Where(d => d.NoDenuncia == noDenuncia)
+                .Select(d => new { estado = d.IdEstatusDenu })
+                .FirstOrDefaultAsync();
+
+            if (denuncia == null)
+                return NotFound(new { mensaje = "Denuncia no encontrada." });
+
+            return Ok(denuncia);
+        }
+
 
     }
 }

@@ -2,6 +2,7 @@
 using ExtencionP.WebApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ExtencionP.WebApi.Models.Formularios;
 
 namespace ExtencionP.WebApi.Controllers
 {
@@ -67,7 +68,7 @@ namespace ExtencionP.WebApi.Controllers
         public async Task<IActionResult> GetIdiomas()
         {
             var idiomas = await _context.VTcComunidadLenguisticas
-                .OrderBy(i => i.NombreComunidad)
+                .OrderBy(i => i.CodComunidadLenguistica)
                 .Select(i => new
                 {
                     label = i.NombreComunidad,
@@ -82,8 +83,8 @@ namespace ExtencionP.WebApi.Controllers
         [HttpGet("etnias")]
         public async Task<IActionResult> GetEtnias()
         {
-            var etnias = await _context.VTcPueblos
-                .OrderBy(e => e.NombrePueblo)
+            var etnias = await _context.VTcPueblos.Where(e => e.CodPueblo >= 1 && e.CodPueblo <= 3 || e.CodPueblo == 5)
+                .OrderBy(e => e.CodPueblo)
                 .Select(e => new
                 {
                     label = e.NombrePueblo,
@@ -101,8 +102,9 @@ namespace ExtencionP.WebApi.Controllers
             var tipos = await _context.TcTipoDenuncia
                 .OrderBy(t => t.IdTipoDenuncia)
                 .Select(t => new {
-                    label = t.Descripcion,
-                    value = t.IdTipoDenuncia
+                    label = t.Titulo,
+                    value = t.IdTipoDenuncia,
+                    name = t.Descripcion
                 }).ToListAsync();
 
             return Ok(tipos);
